@@ -46,7 +46,7 @@ with st.sidebar:
         "Control Center Navigation",
         [
             "Remediation & Dosage Calculator",
-            "Tech Fest Presentation Demo"
+            "Immobilized Yeast Bead Stock Management"
         ]
     )
 
@@ -93,9 +93,9 @@ if navigation == "Remediation & Dosage Calculator":
         else:
             st.info("👈 Adjust your parameters on the left and click **Calculate Remediation** to run the live simulation.")
 
-elif navigation == "Tech Fest Presentation Demo":
-    st.markdown("## 🏆 Tech Fest Presentation Demo")
-    st.write("Manage live batch inventory and track system performance metrics for judging.")
+elif navigation == "Immobilized Yeast Bead Stock Management":
+    st.markdown("## 📦 Immobilized Yeast Bead Stock Management")
+    st.write("Manage live batch inventory and track system performance metrics.")
     
     tab1, tab2 = st.tabs(["📦 Interactive Inventory Tracker", "🔬 Live Process Summary"])
     
@@ -156,4 +156,3 @@ elif navigation == "Tech Fest Presentation Demo":
         col_c.metric("Biodegradability", "100%", "Eco-friendly")
         
         st.info("💡 **Project Note:** YeastLock uses baker's yeast immobilized in sodium alginate cross-linked with calcium chloride for cost-effective dye biosorption from textile wastewater.")
-   
