@@ -38,9 +38,7 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-     
-    
-    /* Force all input labels and markdown text to be bright and fully visible */
+/* Force all input labels and markdown text to be bright and fully visible */
     label, .stSelectbox label, .stNumberInput label, .stSlider label {
         color: #F8FAFC !important;
         font-weight: 600 !important;
