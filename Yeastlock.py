@@ -30,11 +30,14 @@ st.markdown(
         font-size: 0.95rem !important;
     }
     
-    /* Fix sidebar text and radio button visibility */
-    .stsidebar label, .stsidebar span, .stradio div label p {
+    /* Make all text inside sidebar bright and visible */
+    [data-testid="stSidebar"] label, [data-testid="stSidebar"] span, [data-testid="stSidebar"] p {
         color: #F8FAFC !important;
-        font-size: 0.95rem !important;
     }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
      
     
     /* Force all input labels and markdown text to be bright and fully visible */
