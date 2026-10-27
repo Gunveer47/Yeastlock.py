@@ -9,7 +9,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
-
 st.markdown(
     """
     <style>
@@ -18,6 +17,20 @@ st.markdown(
         background-color: #0F172A;
         color: #F8FAFC;
     }
+    
+    /* Force all input labels to be bright and fully visible */
+    label, .stSelectbox label, .stNumberInput label, .stSlider label {
+        color: #F8FAFC !important;
+        font-weight: 600 !important;
+        font-size: 0.95rem !important;
+    }
+    
+    /* Fix sidebar text and radio button visibility */
+    .stsidebar label, .stsidebar span, .stradio div label p {
+        color: #F8FAFC !important;
+        font-size: 0.95rem !important;
+    }
+     
     
     /* Force all input labels and markdown text to be bright and fully visible */
     label, .stSelectbox label, .stNumberInput label, .stSlider label {
