@@ -17,6 +17,11 @@ st.markdown(
         background-color: #0F172A;
         color: #F8FAFC;
     }
+    /* Fix the main container white background */
+    .block-container {
+        background-color: #0F172A !important;
+        color: #F8FAFC !important;
+    }
     
     /* Force all input labels to be bright and fully visible */
     label, .stSelectbox label, .stNumberInput label, .stSlider label {
